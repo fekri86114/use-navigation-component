@@ -55,7 +55,11 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
 ---
 
 ## Usage
- ***Send data by [Safeargs](https://developer.android.com/guide/navigation/navigation-pass-data)***
+ ****Send data by [Safeargs](https://developer.android.com/guide/navigation/navigation-pass-data)****
+ 
+ ****to see a sample you can check `master` branch.****
+ 
+ ### ---
  
   Actually I beleive one of the bes learn-way is to learn with example. So, Let's say we want to send data(name, age, email 
   & password) from `MainFragment` to `ResultFragment` by navcontroller and show. How can we do this?
@@ -80,7 +84,6 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
                      .setMyAge(age) // ...
                      .setMyEmail(email) // ...
                      .setMyPassword(password) // ...
-                     
              )
       
   *(in ResultFragment):*
@@ -98,7 +101,9 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
       binding.txtShowEmail.text    = email
       binding.txtShowPassword.text = password
       
-      
+---
+
+
 
 
 
