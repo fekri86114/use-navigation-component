@@ -71,7 +71,7 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
   2. *Add an **argument** to the `ResultFragment` (You can also, do it by click on `Design` >`Attributes` >`Arguments` > `+`)*
   3. *It's better to `build` your project after add-argument(s). Will add some classes.*
   
-  *(in MainFragment):*
+  *[(in MainFragment)](https://github.com/fekri86114/use-navigation-component/blob/master/app/src/main/java/info/fekri/androidcomponents/MainFragment.kt#:~:text=class%20MainFragment%20%3A%20Fragment()%20%7B):*
   
   1. *Get data and do the relevant works(check null, ...)*
   2. *To send data by safeargs, use `findNavController().navigate()`:*
