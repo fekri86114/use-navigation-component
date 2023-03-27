@@ -86,8 +86,8 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
                      .setMyPassword(password) // ...
              )
       
-  *(in ResultFragment):*
-  *In fact, we want to get and set -->*
+  *[(in ResultFragment)](https://github.com/fekri86114/use-navigation-component/blob/master/app/src/main/java/info/fekri/androidcomponents/ResultFragment.kt#:~:text=class-,ResultFragment,-%3A%20Fragment()%20%7B):*
+  *In fact, we want to get and set data -->*
   
       val name: String = ResultFragmentArgs.fromBundle(requireArguments()).myName
       val age: Int = ResultFragmentArgs.fromBundle(requireArguments()).myAge
@@ -100,7 +100,7 @@ and [here](https://developer.android.com/topic/libraries/architecture/adding-com
       binding.txtShowAge.text      = age.toString()
       binding.txtShowEmail.text    = email
       binding.txtShowPassword.text = password
-      
+
 ---
 
 And finally, happy codding😍😝✌
