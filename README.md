@@ -47,5 +47,7 @@ Use the navigation component by this way:
             ...
          }
 
-
+---
+For more information click [here](https://developer.android.com/guide/navigation/navigation-getting-started) 
+and [here](https://developer.android.com/topic/libraries/architecture/adding-components#navigation)
           
